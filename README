@@ -1,0 +1,16 @@
+jQuery plugin to show text hint (just like a watermark) with type-writer effect.
+
+Requirements:
+	jQuery library
+
+Usage:
+	$(':input').twhint(opt);
+
+Options:
+	hint: array of text hints.
+	speed: type-writing speed.
+	delay: delay switching to next hint.
+	hintClass: class of text hint.
+
+----
+Copyright (c) 2009 MORI Naohiko

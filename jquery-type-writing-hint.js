@@ -1,7 +1,7 @@
 /*
- * jQuery Type Writing Hint 1.0.0
+ * jQuery Type Writing Hint 1.0.1
  *
- * Copyright (c) 2009 MORI Naohiko
+ * Copyright (c) 2009 Naohiko MORI
  * Dual licensed under the MIT and GPL licenses.
  *
  */

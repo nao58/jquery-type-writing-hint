@@ -11,14 +11,21 @@
 			hint: ['keyword'],
 			speed: 100,
 			delay: 1000,
-			hintClass: null
+			hintClass: null,
+			hintCss: null
 		}, (option||{}));
+		if(typeof opt.hint=='string'){
+			opt.hint = [opt.hint];
+		}
 		return this.each(function(){
 			var trg = $(this);
 			var trge = trg.get(0);
 			var hinx, tinx, hint;
 			var hlbl = trg.clone();
 			var pos = trg.offset();
+			if(opt.hintCss){
+				hlbl.css(opt.hintCss);
+			}
 			hlbl.css({
 				left: pos.left,
 				top: pos.top,

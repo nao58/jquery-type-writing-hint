@@ -26,7 +26,7 @@
 			if(opt.hintCss){
 				hlbl.css(opt.hintCss);
 			}
-			hlbl.css({
+			hlbl.attr('id', '').css({
 				left: pos.left,
 				top: pos.top,
 				position: 'absolute'
